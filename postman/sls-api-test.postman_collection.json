@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "0c6a1ba6-7b10-4943-9096-10a4bde4a1d2",
+		"name": "sls-api-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/dev/swapi/personas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Luke Tatooine\",\n    \"height\": \"172\",\n    \"mass\": \"77\",\n    \"hair_color\": \"blond\",\n    \"skin_color\": \"fair\",\n    \"eye_color\": \"blue\",\n    \"birth_year\": \"19BBY\",\n    \"gender\": \"male\",\n    \"homeworld\": \"https://swapi.dev/api/planets/1/\",\n    \"films\": [\n        \"https://swapi.dev/api/films/1/\",\n        \"https://swapi.dev/api/films/2/\",\n        \"https://swapi.dev/api/films/3/\",\n        \"https://swapi.dev/api/films/6/\"\n    ],\n    \"vehicles\": [\n        \"https://swapi.dev/api/vehicles/14/\",\n        \"https://swapi.dev/api/vehicles/30/\"\n    ],\n    \"starships\": [\n        \"https://swapi.dev/api/starships/12/\",\n        \"https://swapi.dev/api/starships/22/\"\n    ],\n    \"url\": \"https://swapi.dev/api/people/1/\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/dev/swapi/personas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"dev",
+						"swapi",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/dev/swapi/personas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/dev/swapi/personas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"dev",
+						"swapi",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/dev/swapi/personas/f924c4f0-0657-11eb-ae7f-31e22e0bc9ad",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/dev/swapi/personas/f924c4f0-0657-11eb-ae7f-31e22e0bc9ad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"dev",
+						"swapi",
+						"personas",
+						"f924c4f0-0657-11eb-ae7f-31e22e0bc9ad"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,23 @@
+{
+    "name": "sls-api-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/handler.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "serverless-offline": "^6.8.0",
+        "serverless-plugin-include-dependencies": "^4.1.0"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.766.0",
+        "joi": "^17.2.1",
+        "node-fetch": "^2.6.1",
+        "serverless-dynamodb-local": "^0.2.30",
+        "uuid": "^8.3.0"
+    }
+}
