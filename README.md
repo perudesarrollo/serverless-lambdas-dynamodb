@@ -26,10 +26,10 @@ Eliminar Personaje
 
 ### Vista desde AWS
 Lambda
-> ![Lambda](https://github.com/perudesarrollo/serverless-lambdas-dynamodb/blob/main/imagen/lambda.png?raw=true)
+> ![Lambda](https://github.com/perudesarrollo/serverless-lambdas-dynamodb/blob/main/image/lambda.png?raw=true)
 
 Dynamodb
-> ![Dynamodb](https://github.com/perudesarrollo/serverless-lambdas-dynamodb/blob/main/imagen/dynamodb.png?raw=true)
+> ![Dynamodb](https://github.com/perudesarrollo/serverless-lambdas-dynamodb/blob/main/image/dynamodb.png?raw=true)
 
 
 Deploy Serverless en AWS
