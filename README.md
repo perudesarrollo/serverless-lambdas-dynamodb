@@ -10,7 +10,7 @@ sls offline start
 Iniciar Serverless 
 > ![sls offline start](https://github.com/perudesarrollo/serverless-lambdas-dynamodb/blob/main/image/sls-offline-start.png?raw=true)
 
-### Si te da error error el puerto 8000 usar:
+### Si tienes usando el puerto 8000 usar:
 ```
 kill -9 $(lsof -i TCP:8000 | grep LISTEN | awk '{print $2}')
 ```
